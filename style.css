@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./pexels-maxyne-barcel-10402282\ 1.png);
+   
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:start;
+    gap:300px;
+   
+    
+  }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+    color: rgb(231, 167, 90);
+    gap: 30px;
+}
+nav .cl{
+    display: flex;
+    
+    margin-top: 10px;
+    padding-left:10px;
+    
+   
+   
+}
+.t:hover{
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: 700;
+}
+.btn{
+    margin-left: 150px;
+   
+}
+
+  
+
+ nav button{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+    background-color: rgb(246, 145, 145);
+    color: white;
+    width: 60px;
+    height: 30px;
+
+}
+nav button:hover{
+    cursor: pointer;
+    font-weight: 900;
+    color: aqua;
+    background-color: azure;
+}
+.rt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size:12vh;
+    color:  rgb(231, 167, 90);
+    font-family: 'Square Peg', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+section .k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+section button {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 145, 145);
+    color: white;
+    height: 35px;
+    width: 120px;
+
+    
+}
+section button:hover{
+    cursor: pointer;
+    font-weight: 900;
+    color: aqua;
+    background-color: azure;
+}
+
+.y{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+
+}
